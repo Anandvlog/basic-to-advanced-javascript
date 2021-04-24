@@ -1,5 +1,3 @@
-
-
 function wordcount() {
     let str = 'bhvdfdfvjlncvdv dvdfvdhvdfhv';
     let n = str.length
@@ -13,8 +11,6 @@ function wordcount() {
     let res = str1 .concat (str2);
     document.getElementById("count1").innerHTML = res;
     // document.getElementById('count1').innerHTML=(str1 + " " + str2); 
-
-     
  }
  
 
