@@ -1,9 +1,7 @@
-// let str1 = 'anand';
-// let str2 = 'chauhan'; 
-// console.log(str1 + " " + str2);
+
 
 function wordcount() {
-    let str = 'anand chauhan';
+    let str = 'bhvdfdfvjlncvdv dvdfvdhvdfhv';
     let n = str.length
     document.getElementById('count').innerHTML=n; 
 }
@@ -75,29 +73,7 @@ function wordcount() {
    }
 
 
-  function findword()
-  {
-    let str = "anand javascript anand is a javascript";
-      let strArr = str.split(" ");
-      let res = []
-      
-      for (let i = 0; i < strArr.length; i++){
-          if(strArr.indexOf(strArr[i]) !== strArr.lastIndexOf(strArr[i])){
-              if(!res.includes(strArr[i])){
-                  res.push(strArr[i]);
-              };
-          };
-      };
-      
-      
-  };
-  document.getElementById('count9').innerHTML= str;
 
-var str = "how do you do"
- function finddublicateword (str){
-      var res = str.split(" ");
-      
- }
 
 
 
